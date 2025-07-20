@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Sevai Shop Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My e-Sevai Shop Dashboard</h1>
+    </header>
+
+    <main class="container">
+        <!-- Section to Add a New Customer -->
+        <div class="card">
+            <h2>Add New Customer</h2>
+            <form id="addCustomerForm">
+                <input type="text" id="customerName" placeholder="Customer's Full Name" required>
+                <input type="tel" id="customerPhone" placeholder="Customer's Phone Number" required>
+                <button type="submit">Add Customer</button>
+            </form>
+        </div>
+
+        <!-- Section to display all customers -->
+        <div class="card">
+            <h2>Customer List</h2>
+            <div id="loader">Loading customers...</div>
+            <div id="customerList">
+                <!-- Customer data will be injected here by JavaScript -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Simple Shop Management</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
