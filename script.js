@@ -1,6 +1,6 @@
 // --- CONFIGURATION ---
 // PASTE THE GOOGLE APPS SCRIPT URL YOU COPIED IN PART 2 HERE
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwuw-juRDLj8N8xcltI4wFx5VXKazsLeKUaG_tNuZZl4vZhyieiW9ucj6WU-Fi81aQg/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx7aAQsJJA2mBva-9L4P5BKzAJVzevaGh0rrFoyG1DelWm2L8uXDg2Vx8X-xkYvQXOk/exec';
 
 // --- ELEMENT SELECTORS ---
 const customerListDiv = document.getElementById('customerList');
